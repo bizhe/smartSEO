@@ -1,0 +1,96 @@
+.headerfull {
+  background: black; }
+  .headerfull p {
+    color: white;
+    padding: 20px 0px;
+    margin: 0px; }
+    .headerfull p i {
+      font-size: 17px;
+      margin-right: 5px; }
+  .headerfull a {
+    font-size: 14px;
+    padding: 20px 0px;
+    text-decoration: none;
+    color: #ddd;
+    margin-right: 5px; }
+    .headerfull a:hover {
+      color: #fff; }
+  .headerfull i {
+    font-size: 17px;
+    margin-right: 5px; }
+
+.secondheader .logo {
+  padding: 10px 0px; }
+.secondheader .info {
+  padding: 10px 0px; }
+  .secondheader .info ul {
+    list-style-type: none;
+    margin-top: 20px; }
+    .secondheader .info ul .nese {
+      margin-right: 55px; }
+    .secondheader .info ul li {
+      display: inline; }
+      .secondheader .info ul li a {
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-weight: lighter;
+        position: relative;
+        color: black; }
+      .secondheader .info ul li i {
+        color: #25d25e;
+        font-size: 21px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        position: absolute;
+        top: -1px;
+        left: -45px;
+        text-align: center;
+        width: 45px;
+        height: 43px;
+        line-height: 23px; }
+
+.thirdheader {
+  background: #25d25e;
+  padding: 14px; }
+  .thirdheader .bottomhead {
+    align-items: center; }
+  .thirdheader .menu ul {
+    list-style-type: none;
+    padding: 0px; }
+    .thirdheader .menu ul li {
+      display: inline;
+      float: left; }
+    .thirdheader .menu ul a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 24px 25px 23px 25px;
+      border-right: 1px solid #31ee70;
+      text-align: center; }
+      .thirdheader .menu ul a:hover {
+        background: #31ee70; }
+    .thirdheader .menu ul .active {
+      border-left: 1px solid #31ee70;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 24px 25px 23px 25px;
+      text-align: center;
+      background: #31ee70; }
+  .thirdheader .searchside .form-control {
+    background: #25d25e;
+    color: white;
+    border: 1px solid white; }
+  .thirdheader .searchside .btn {
+    background: #25d25e;
+    border: 1px solid white; }
+    .thirdheader .searchside .btn i {
+      font-weight: 400 !important; }
+  .thirdheader .searchside ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+    font-size: 14px; }
+
+/*# sourceMappingURL=base.css.map */
