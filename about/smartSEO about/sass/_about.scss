@@ -1,0 +1,124 @@
+
+.page-heading{
+    .content{
+        border:1px solid #25d25e;
+     .breadcrumb-item{
+         padding:0px 15px;
+         display: inline-block;
+    position: relative;
+         &::before{
+    content: "|";
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:#ccc;
+}
+         a{
+         color:black;
+         }
+     }
+    }
+    }
+.promo-section{
+    margin:0px auto;
+    padding:100px 0px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    .promo-item{  
+     position: relative;
+    display: block;
+    padding-left: 80px;}
+i{
+        border: 1px solid #ddd;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    color: #25d25e;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    text-align: center;
+    line-height: 58px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+          color: white;
+background-color: #25d25e;
+    }
+
+}
+}
+.info-section{
+    padding:100px 0px;
+    .heading{
+        margin-bottom:30px;
+        h2{
+                display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    &::before{
+            background-color: #25d25e;
+    content: '';
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    }
+        }
+    }
+.card{
+    border:none;
+    .card-header{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    h5{
+    text-transform: uppercase;
+ a {
+     text-decoration: none;
+    position: relative;
+    display: block;
+    color: #777;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    &::after{
+    content: '\f067';
+    font-family: FontAwesome;
+    color: #777;
+    position:absolute;
+    right:0;
+    font-size:20px;
+    }
+    }
+    }
+    }
+}
+
+}
+.parallax {
+    padding:100px 0;
+    background-image: url("../img/counter-bg.jpg");
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .count{
+        color:#25d25e;
+            font-weight: 800;
+    font-size: 35px;
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    h5{
+        font-weight:100!important;
+    }
+}
+.width{
+    width:100%;
+}
+p{
+    margin: 0 0 15px;
+}
